@@ -5,11 +5,16 @@ Sass / Grunt.js / Zurb Foundation Email Templates (Basic)
 ### How To Use
 Create html/css as normal. When complete, run grunt build:html to apply the styling inline to the elements. This will create a new file in build. Once thats complete run grunt build:css and manually add the compressed css to the build files.
 
-Useful Links
+More Reading
 - http://foundation.zurb.com/emails/email-templates.html
 - http://www.leemunroe.com/building-html-email/
 - http://www.leemunroe.com/sending-email-designers-developers/
 
+#### grunt-inline-css
+This uses the grunt-inline-css node module.
+- https://github.com/jgallen23/grunt-inline-css
+
+### Commands
 Resolve Node dependencies
 ```
 $ npm install
