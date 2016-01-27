@@ -1,7 +1,7 @@
 {
-  "name": "linkwell_health-harmony-email",
+  "name": "Email Boilerplate",
   "version": "1.0.0",
-  "description": "Email For Linkwell Campaign ",
+  "description": "Starting point for email",
   "main": "email/email.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,6 @@
     "grunt-contrib-csslint": "^0.5.0",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-htmllint": "^0.2.7",
-    "grunt-inline": "^0.3.6",
     "grunt-inline-css": "^0.1.5",
     "grunt-sass": "~0.18.1"
   }

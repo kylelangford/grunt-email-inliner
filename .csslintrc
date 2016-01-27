@@ -9,6 +9,8 @@
   "floats":false,
   "font-faces":false,
   "box-model": false,
+  "important": false,
+  "ids": false,
 
   // IE6-7 Specific
   "adjoining-classes": false,

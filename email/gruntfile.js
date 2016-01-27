@@ -8,9 +8,17 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     sass : {
-      build: {
+      dev: {
         options : {
           outputStyle: 'nested'
+        },
+        files : {
+          'css/styles.css' : 'scss/styles.scss'
+        }
+      },
+      build: {
+        options : {
+          outputStyle: 'compressed'
         },
         files : {
           'css/styles.css' : 'scss/styles.scss'
@@ -22,7 +30,7 @@ module.exports = function(grunt) {
         options: {
         },
         files: {
-          'build/email.html': 'build/email.html'
+          'build/email.html': 'email.html'
         }
       }
     },
@@ -34,7 +42,7 @@ module.exports = function(grunt) {
     },
     htmllint: {
      options: {
-       format: "none",
+       format: "underscore",
        htmllintrc: '../.htmllintrc'
      },
      src: [ 'email.html' ]
@@ -48,7 +56,7 @@ module.exports = function(grunt) {
       },
       css: {
         files: ['scss/**/*.scss'],
-        tasks: ['sass:build']
+        tasks: ['sass:dev']
       }
     }
   });
@@ -66,8 +74,9 @@ module.exports = function(grunt) {
   grunt.file.setBase('email/');
 
   // Register tasks
-  grunt.registerTask( 'default', [ 'sass:build' ]);
-  grunt.registerTask( 'build', [ 'inlinecss:main' ]);
+  grunt.registerTask( 'default', [ 'sass:dev' ]);
+  grunt.registerTask( 'build:html', [ 'inlinecss:main' ]);
+  grunt.registerTask( 'build:css', [ 'sass:build' ]);
   grunt.registerTask( 'lint:css', [ 'csslint' ]);
   grunt.registerTask( 'lint:html', [ 'htmllint' ]);
 
