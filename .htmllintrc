@@ -1,4 +1,5 @@
-{ 
+{
   "indent-width": false,
-  "underscore": false
+  "underscore": false,
+  "attr-bans": false
 }
