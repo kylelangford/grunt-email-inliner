@@ -10,6 +10,21 @@ More Reading
 - http://www.leemunroe.com/building-html-email/
 - http://www.leemunroe.com/sending-email-designers-developers/
 
+#### Support Guide
+- https://www.campaignmonitor.com/css/
+
+#### Bulletproof Backgrounds
+https://backgrounds.cm/
+
+#### Bulletproof Buttons
+https://buttons.cm/
+
+#### Webfonts
+https://www.campaignmonitor.com/dev-resources/will-it-work/webfonts/
+
+#### Alt Text
+https://litmus.com/community/learning/12-alt-text-in-html-email
+
 #### grunt-inline-css
 This uses the grunt-inline-css node module.
 - https://github.com/jgallen23/grunt-inline-css
