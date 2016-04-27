@@ -10,22 +10,22 @@ Create html/css as normal. When complete, run grunt build:html to apply the styl
 - http://www.leemunroe.com/building-html-email/
 - http://www.leemunroe.com/sending-email-designers-developers/
 
-#### Support Guide
+##### Support Guide
 - https://www.campaignmonitor.com/css/
 
-#### Bulletproof Backgrounds
+##### Bulletproof Backgrounds
 - https://backgrounds.cm/
 
-#### Bulletproof Buttons
+##### Bulletproof Buttons
 - https://buttons.cm/
 
-#### Webfonts
+##### Webfonts
 - https://www.campaignmonitor.com/dev-resources/will-it-work/webfonts/
 
-#### Alt Text
+##### Alt Text
 - https://litmus.com/community/learning/12-alt-text-in-html-email
 
-#### grunt-inline-css
+##### grunt-inline-css
 This uses the grunt-inline-css node module.
 - https://github.com/jgallen23/grunt-inline-css
 
