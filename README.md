@@ -14,16 +14,16 @@ More Reading
 - https://www.campaignmonitor.com/css/
 
 #### Bulletproof Backgrounds
-https://backgrounds.cm/
+- https://backgrounds.cm/
 
 #### Bulletproof Buttons
-https://buttons.cm/
+- https://buttons.cm/
 
 #### Webfonts
-https://www.campaignmonitor.com/dev-resources/will-it-work/webfonts/
+- https://www.campaignmonitor.com/dev-resources/will-it-work/webfonts/
 
 #### Alt Text
-https://litmus.com/community/learning/12-alt-text-in-html-email
+- https://litmus.com/community/learning/12-alt-text-in-html-email
 
 #### grunt-inline-css
 This uses the grunt-inline-css node module.
