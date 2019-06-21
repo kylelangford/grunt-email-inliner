@@ -1,4 +1,4 @@
-# Email Boilerplate
+# Convert Standard CSS/HTML into Email
 
 Sass / Grunt.js / Zurb Foundation Email Templates (Basic)
 
